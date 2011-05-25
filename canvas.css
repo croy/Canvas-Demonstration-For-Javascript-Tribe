@@ -1,14 +1,59 @@
-canvas {border: solid; display: block;}
-.colors {list-style-type: none;}
-.colors ul {display: inline; margin: 0; padding: 0;}
-.color {width: 16px; height: 16px; display: inline-block; border-width: 1px; border-color: black; border: solid; }
-.black {background-color: black;}
-.white {background-color: white;}
-.red {background-color: red;}
-.orange {background-color: orange;}
-.yellow {background-color: yellow;}
-.green {background-color: green;}
-.blue {background-color: blue;}
-.indigo {background-color: indigo;}
-.violet {background-color: violet;}
+canvas {
+    border: solid 1px; 
+    display: block;}
+.colors {
+    list-style-type: none;}
+.colors ul {
+    display: inline; 
+    margin: 0px; 
+    padding: 0px;}
+.color {
+    width: 25px; 
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block; 
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: #a0a0a0;}
 
+.brush {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a0a0a0;}
+
+.current {
+    border-color: #3c3c3c;}
+.black {
+    background-color: black;}
+.gray {
+    background-color: gray;}
+.white {
+    background-color: white;}
+.red {
+    background-color: red;}
+.orange {
+    background-color: orange;}
+.yellow {
+    background-color: yellow;}
+.green {
+    background-color: green;}
+.blue {
+    background-color: blue;}
+.indigo {
+    background-color: indigo;}
+.violet {
+    background-color: violet;}
+
+.brushes {
+    list-style-type: none;}
+
+.brushes ul {
+    display: inline;
+    margin: 0px;
+    padding: 0px;}
