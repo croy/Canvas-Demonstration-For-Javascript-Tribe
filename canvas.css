@@ -27,6 +27,18 @@ canvas {
     border-width: 5px;
     border-color: #a0a0a0;}
 
+.brush.square {
+    background-image:url('square.png');
+}
+
+.brush.circle {
+    background-image:url('circle.png');
+}
+
+.brush.line {
+    background-image:url('line.png');
+}
+
 .current {
     border-color: #3c3c3c;}
 .black {
